@@ -55,6 +55,6 @@ def get_users(uid):
             return R_SERVER.get(key)
         else:
             return "Record not found"
-
+            print "helloworld"
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
